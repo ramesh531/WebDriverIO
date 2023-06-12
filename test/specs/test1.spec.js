@@ -9,7 +9,7 @@ describe("Demo Test", function() {
       // await $('(//div[contains(text(),'Accept')])[2]')
 
        await $('[class="QS5gu sy4vM"]').click()
-       browser.pause(2000)
+       browser.pause(4000)
         await $('[name="q"]').setValue('WebDriverIo')
 
         await $('[name="btnK"]').click()
